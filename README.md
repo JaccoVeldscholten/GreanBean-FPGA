@@ -6,7 +6,8 @@
 
 
 # GreenBean 
-This project is part of the KBS project ESA2. (2020).
+This project is part of the KBS project ESA2 at Windesheim, Zwolle The Netherlands(2020).
+
 Make coffee with the DE2-115. The camera scans how much coffee should be in the cup.
 Via a barcode scanner (Serial) it is possible to read which type of coffee should be made.
 The temperature control of the senseo is controlled via a PID control.
