@@ -12,6 +12,8 @@ Make coffee with the DE2-115. The camera scans how much coffee should be in the 
 Via a barcode scanner (Serial) it is possible to read which type of coffee should be made.
 The temperature control of the senseo is controlled via a PID control.
 
+To run this project, Use the Time_limited.sof
+
 Requirements Hardware Machine:
 
 - DE2-115 FGPA Development Boadrd
