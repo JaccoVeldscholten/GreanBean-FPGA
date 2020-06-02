@@ -1,0 +1,279 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2017  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel MegaCore Function License Agreement, or other 
+# applicable license agreement, including, without limitation, 
+# that your use is for the sole purpose of programming logic 
+# devices manufactured by Intel and sold by Intel or its 
+# authorized distributors.  Please refer to the applicable 
+# agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 16.1.2 Build 203 01/18/2017 SJ Lite Edition
+# Date created = 18:39:44  April 25, 2020
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		GreenBean_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone IV E"
+set_global_assignment -name DEVICE EP4CE115F29C7
+set_global_assignment -name TOP_LEVEL_ENTITY GreenBean
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 16.1.2
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "18:39:44  APRIL 25, 2020"
+set_global_assignment -name LAST_QUARTUS_VERSION "16.1.2 Lite Edition"
+set_global_assignment -name QIP_FILE GreenBeanCPU/synthesis/GreenBeanCPU.qip
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name NOMINAL_CORE_SUPPLY_VOLTAGE 1.2V
+set_location_assignment PIN_AE13 -to SD_CLK
+set_location_assignment PIN_AD14 -to SD_CMD
+set_location_assignment PIN_D12 -to VGA_B[7]
+set_location_assignment PIN_D11 -to VGA_B[6]
+set_location_assignment PIN_C12 -to VGA_B[5]
+set_location_assignment PIN_A11 -to VGA_B[4]
+set_location_assignment PIN_B11 -to VGA_B[3]
+set_location_assignment PIN_C11 -to VGA_B[2]
+set_location_assignment PIN_A10 -to VGA_B[1]
+set_location_assignment PIN_B10 -to VGA_B[0]
+set_location_assignment PIN_C9 -to VGA_G[7]
+set_location_assignment PIN_F10 -to VGA_G[6]
+set_location_assignment PIN_B8 -to VGA_G[5]
+set_location_assignment PIN_C8 -to VGA_G[4]
+set_location_assignment PIN_H12 -to VGA_G[3]
+set_location_assignment PIN_F8 -to VGA_G[2]
+set_location_assignment PIN_G11 -to VGA_G[1]
+set_location_assignment PIN_G8 -to VGA_G[0]
+set_location_assignment PIN_H10 -to VGA_R[7]
+set_location_assignment PIN_H8 -to VGA_R[6]
+set_location_assignment PIN_J12 -to VGA_R[5]
+set_location_assignment PIN_G10 -to VGA_R[4]
+set_location_assignment PIN_F12 -to VGA_R[3]
+set_location_assignment PIN_D10 -to VGA_R[2]
+set_location_assignment PIN_E11 -to VGA_R[1]
+set_location_assignment PIN_E12 -to VGA_R[0]
+set_location_assignment PIN_A12 -to VGA_CLK
+set_location_assignment PIN_F11 -to VGA_BLANK_N
+set_location_assignment PIN_C10 -to VGA_SYNC_N
+set_location_assignment PIN_G13 -to VGA_HS
+set_location_assignment PIN_C13 -to VGA_VS
+set_location_assignment PIN_AE5 -to DRAM_CLK
+set_location_assignment PIN_U1 -to DRAM_DQ[31]
+set_location_assignment PIN_U4 -to DRAM_DQ[30]
+set_location_assignment PIN_T3 -to DRAM_DQ[29]
+set_location_assignment PIN_R3 -to DRAM_DQ[28]
+set_location_assignment PIN_R2 -to DRAM_DQ[27]
+set_location_assignment PIN_R1 -to DRAM_DQ[26]
+set_location_assignment PIN_R7 -to DRAM_DQ[25]
+set_location_assignment PIN_U5 -to DRAM_DQ[24]
+set_location_assignment PIN_M8 -to DRAM_DQ[16]
+set_location_assignment PIN_L8 -to DRAM_DQ[17]
+set_location_assignment PIN_P2 -to DRAM_DQ[18]
+set_location_assignment PIN_N3 -to DRAM_DQ[19]
+set_location_assignment PIN_N4 -to DRAM_DQ[20]
+set_location_assignment PIN_M4 -to DRAM_DQ[21]
+set_location_assignment PIN_M7 -to DRAM_DQ[22]
+set_location_assignment PIN_L7 -to DRAM_DQ[23]
+set_location_assignment PIN_Y3 -to DRAM_DQ[8]
+set_location_assignment PIN_Y4 -to DRAM_DQ[9]
+set_location_assignment PIN_AB1 -to DRAM_DQ[10]
+set_location_assignment PIN_AA3 -to DRAM_DQ[11]
+set_location_assignment PIN_AB2 -to DRAM_DQ[12]
+set_location_assignment PIN_AC1 -to DRAM_DQ[13]
+set_location_assignment PIN_AB3 -to DRAM_DQ[14]
+set_location_assignment PIN_AC2 -to DRAM_DQ[15]
+set_location_assignment PIN_W3 -to DRAM_DQ[0]
+set_location_assignment PIN_W2 -to DRAM_DQ[1]
+set_location_assignment PIN_V4 -to DRAM_DQ[2]
+set_location_assignment PIN_W1 -to DRAM_DQ[3]
+set_location_assignment PIN_V3 -to DRAM_DQ[4]
+set_location_assignment PIN_V2 -to DRAM_DQ[5]
+set_location_assignment PIN_V1 -to DRAM_DQ[6]
+set_location_assignment PIN_U3 -to DRAM_DQ[7]
+set_location_assignment PIN_W4 -to DRAM_DQM[1]
+set_location_assignment PIN_K8 -to DRAM_DQM[2]
+set_location_assignment PIN_U2 -to DRAM_DQM[0]
+set_location_assignment PIN_N8 -to DRAM_DQM[3]
+set_location_assignment PIN_U6 -to DRAM_RAS_N
+set_location_assignment PIN_V7 -to DRAM_CAS_N
+set_location_assignment PIN_AA6 -to DRAM_CKE
+set_location_assignment PIN_V6 -to DRAM_WE_N
+set_location_assignment PIN_T4 -to DRAM_CS_N
+set_location_assignment PIN_U7 -to DRAM_BA[0]
+set_location_assignment PIN_R4 -to DRAM_BA[1]
+set_location_assignment PIN_Y7 -to DRAM_ADDR[12]
+set_location_assignment PIN_AA5 -to DRAM_ADDR[11]
+set_location_assignment PIN_R5 -to DRAM_ADDR[10]
+set_location_assignment PIN_Y6 -to DRAM_ADDR[9]
+set_location_assignment PIN_Y5 -to DRAM_ADDR[8]
+set_location_assignment PIN_AA7 -to DRAM_ADDR[7]
+set_location_assignment PIN_W7 -to DRAM_ADDR[6]
+set_location_assignment PIN_W8 -to DRAM_ADDR[5]
+set_location_assignment PIN_V5 -to DRAM_ADDR[4]
+set_location_assignment PIN_R6 -to DRAM_ADDR[0]
+set_location_assignment PIN_V8 -to DRAM_ADDR[1]
+set_location_assignment PIN_U8 -to DRAM_ADDR[2]
+set_location_assignment PIN_P1 -to DRAM_ADDR[3]
+set_location_assignment PIN_AG3 -to SRAM_DQ[15]
+set_location_assignment PIN_AF3 -to SRAM_DQ[14]
+set_location_assignment PIN_AE4 -to SRAM_DQ[13]
+set_location_assignment PIN_AE3 -to SRAM_DQ[12]
+set_location_assignment PIN_AE1 -to SRAM_DQ[11]
+set_location_assignment PIN_AE2 -to SRAM_DQ[10]
+set_location_assignment PIN_AD2 -to SRAM_DQ[9]
+set_location_assignment PIN_AD1 -to SRAM_DQ[8]
+set_location_assignment PIN_AF7 -to SRAM_DQ[7]
+set_location_assignment PIN_AH6 -to SRAM_DQ[6]
+set_location_assignment PIN_AG6 -to SRAM_DQ[5]
+set_location_assignment PIN_AF6 -to SRAM_DQ[4]
+set_location_assignment PIN_AH4 -to SRAM_DQ[3]
+set_location_assignment PIN_AG4 -to SRAM_DQ[2]
+set_location_assignment PIN_AF4 -to SRAM_DQ[1]
+set_location_assignment PIN_AH3 -to SRAM_DQ[0]
+set_location_assignment PIN_AC4 -to SRAM_UB_N
+set_location_assignment PIN_AD4 -to SRAM_LB_N
+set_location_assignment PIN_AF8 -to SRAM_CE_N
+set_location_assignment PIN_AD5 -to SRAM_OE_N
+set_location_assignment PIN_AE8 -to SRAM_WE_N
+set_location_assignment PIN_AE6 -to SRAM_ADDR[5]
+set_location_assignment PIN_AB5 -to SRAM_ADDR[6]
+set_location_assignment PIN_AC5 -to SRAM_ADDR[7]
+set_location_assignment PIN_AF5 -to SRAM_ADDR[8]
+set_location_assignment PIN_T7 -to SRAM_ADDR[9]
+set_location_assignment PIN_AF2 -to SRAM_ADDR[10]
+set_location_assignment PIN_AD3 -to SRAM_ADDR[11]
+set_location_assignment PIN_AB4 -to SRAM_ADDR[12]
+set_location_assignment PIN_AC3 -to SRAM_ADDR[13]
+set_location_assignment PIN_AA4 -to SRAM_ADDR[14]
+set_location_assignment PIN_AB7 -to SRAM_ADDR[0]
+set_location_assignment PIN_AD7 -to SRAM_ADDR[1]
+set_location_assignment PIN_AE7 -to SRAM_ADDR[2]
+set_location_assignment PIN_AC7 -to SRAM_ADDR[3]
+set_location_assignment PIN_AB6 -to SRAM_ADDR[4]
+set_location_assignment PIN_T8 -to SRAM_ADDR[19]
+set_location_assignment PIN_AB8 -to SRAM_ADDR[18]
+set_location_assignment PIN_AB9 -to SRAM_ADDR[17]
+set_location_assignment PIN_AC11 -to SRAM_ADDR[16]
+set_location_assignment PIN_AB11 -to SRAM_ADDR[15]
+set_global_assignment -name VHDL_FILE GreenBean_Top.vhd
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -entity SDCard_VGA -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -entity SDCard_VGA -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -entity SDCard_VGA -section_id Top
+set_location_assignment PIN_Y2 -to CLK_50M
+set_location_assignment PIN_M23 -to KEY
+set_location_assignment PIN_AE14 -to SD_DAT
+set_location_assignment PIN_AC14 -to SD_DAT3
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -entity SDCard_VGA -section_id Top
+set_location_assignment PIN_E22 -to LEDG[1]
+set_location_assignment PIN_E25 -to LEDG[2]
+set_location_assignment PIN_E24 -to LEDG[3]
+set_location_assignment PIN_G20 -to LEDG[5]
+set_location_assignment PIN_G22 -to LEDG[6]
+set_location_assignment PIN_G21 -to LEDG[7]
+set_location_assignment PIN_G19 -to LEDR[0]
+set_location_assignment PIN_E19 -to LEDR[2]
+set_location_assignment PIN_F19 -to LEDR[1]
+set_location_assignment PIN_F21 -to LEDR[3]
+set_location_assignment PIN_F18 -to LEDR[4]
+set_location_assignment PIN_E18 -to LEDR[5]
+set_location_assignment PIN_J19 -to LEDR[6]
+set_location_assignment PIN_H19 -to LEDR[7]
+set_location_assignment PIN_J17 -to LEDR[8]
+set_location_assignment PIN_G17 -to LEDR[9]
+set_location_assignment PIN_J15 -to LEDR[10]
+set_location_assignment PIN_H16 -to LEDR[11]
+set_location_assignment PIN_J16 -to LEDR[12]
+set_location_assignment PIN_H17 -to LEDR[13]
+set_location_assignment PIN_F15 -to LEDR[14]
+set_location_assignment PIN_G15 -to LEDR[15]
+set_location_assignment PIN_G16 -to LEDR[16]
+set_location_assignment PIN_H15 -to LEDR[17]
+set_location_assignment PIN_M21 -to KEY[1]
+set_location_assignment PIN_N21 -to KEY[2]
+set_location_assignment PIN_R24 -to KEY[3]
+set_location_assignment PIN_AB28 -to SW[0]
+set_location_assignment PIN_AC28 -to SW[1]
+set_location_assignment PIN_AC27 -to SW[2]
+set_location_assignment PIN_AD27 -to SW[3]
+set_location_assignment PIN_AB27 -to SW[4]
+set_location_assignment PIN_AC26 -to SW[5]
+set_location_assignment PIN_AD26 -to SW[6]
+set_location_assignment PIN_AB26 -to SW[7]
+set_location_assignment PIN_AC25 -to SW[8]
+set_location_assignment PIN_AB25 -to SW[9]
+set_location_assignment PIN_AC24 -to SW[10]
+set_location_assignment PIN_AB24 -to SW[11]
+set_location_assignment PIN_AB23 -to SW[12]
+set_location_assignment PIN_AA24 -to SW[13]
+set_location_assignment PIN_AA23 -to SW[14]
+set_location_assignment PIN_AA22 -to SW[15]
+set_location_assignment PIN_Y24 -to SW[16]
+set_location_assignment PIN_Y23 -to SW[17]
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -entity fakka -section_id Top
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -entity fakka -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -entity fakka -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -entity fakka -section_id Top
+set_global_assignment -name VHDL_FILE GreenBean_PWM.vhd
+set_location_assignment PIN_G21 -to pwmPin
+set_global_assignment -name VHDL_FILE GreenBean_UART.vhd
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_location_assignment PIN_AG26 -to barcode_in_RX
+set_location_assignment PIN_AH23 -to temp_in_RX
+set_location_assignment PIN_E21 -to LEDG[0]
+set_global_assignment -name VHDL_FILE GreenBean_Edge_Recognition.vhd
+set_global_assignment -name VHDL_FILE GreenBean_Edge_Recognition_Register.vhd
+set_global_assignment -name VHDL_FILE GreenBean_Cam_I2C.vhd
+set_global_assignment -name VHDL_FILE GreenBean_Cam_FrameBuffer.vhd
+set_global_assignment -name VHDL_FILE GreenBean_Cam_Capture.vhd
+set_global_assignment -name VHDL_FILE GreenBean_Cam_Controller.vhd
+set_global_assignment -name VHDL_FILE GreenBean_Cam_Registers.vhd
+set_global_assignment -name VHDL_FILE GreenBean_Cam_Address_Generator.vhd
+set_global_assignment -name VHDL_FILE GreenBean_Cam_XY.vhd
+set_global_assignment -name VHDL_FILE GreenBean_Cam_VGAUnit.vhd
+set_global_assignment -name VHDL_FILE GreenBean_Cam_Top.vhd
+set_global_assignment -name VHDL_FILE GreenBean_Cam_FrameBufferLib.vhd
+set_location_assignment PIN_AE16 -to ov7670_data[7]
+set_location_assignment PIN_AD21 -to ov7670_data[6]
+set_location_assignment PIN_Y16 -to ov7670_data[5]
+set_location_assignment PIN_AC21 -to ov7670_data[4]
+set_location_assignment PIN_Y17 -to ov7670_data[3]
+set_location_assignment PIN_AB21 -to ov7670_data[2]
+set_location_assignment PIN_AC15 -to ov7670_data[1]
+set_location_assignment PIN_AB22 -to ov7670_data[0]
+set_location_assignment PIN_AC22 -to ov7670_href
+set_location_assignment PIN_AC19 -to ov7670_pclk
+set_location_assignment PIN_AD19 -to ov7670_pwdn
+set_location_assignment PIN_AF15 -to ov7670_reset
+set_location_assignment PIN_AF24 -to ov7670_sioc
+set_location_assignment PIN_AE21 -to ov7670_siod
+set_location_assignment PIN_AF25 -to ov7670_vsync
+set_location_assignment PIN_AF16 -to ov7670_xclk
+set_global_assignment -name CDF_FILE output_files/Chain2.cdf
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

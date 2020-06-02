@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Mon Jun 01 10:50:13 2020
+Quartus Prime Version : 16.1.2 Build 203 01/18/2017 SJ Lite Edition
+Revision Name : GreenBean
+Top-level Entity Name : GreenBean
+Family : Cyclone IV E
+Total logic elements : 17,753
+    Total combinational functions : 14,377
+    Dedicated logic registers : 9,684
+Total registers : 9684
+Total pins : 194
+Total virtual pins : 0
+Total memory bits : 671,289
+Embedded Multiplier 9-bit elements : 13
+Total PLLs : 1

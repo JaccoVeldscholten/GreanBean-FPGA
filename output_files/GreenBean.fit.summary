@@ -1,0 +1,16 @@
+Fitter Status : Successful - Mon Jun 01 10:51:34 2020
+Quartus Prime Version : 16.1.2 Build 203 01/18/2017 SJ Lite Edition
+Revision Name : GreenBean
+Top-level Entity Name : GreenBean
+Family : Cyclone IV E
+Device : EP4CE115F29C7
+Timing Models : Final
+Total logic elements : 16,257 / 114,480 ( 14 % )
+    Total combinational functions : 14,394 / 114,480 ( 13 % )
+    Dedicated logic registers : 9,541 / 114,480 ( 8 % )
+Total registers : 9660
+Total pins : 194 / 529 ( 37 % )
+Total virtual pins : 0
+Total memory bits : 671,289 / 3,981,312 ( 17 % )
+Embedded Multiplier 9-bit elements : 13 / 532 ( 2 % )
+Total PLLs : 1 / 4 ( 25 % )
